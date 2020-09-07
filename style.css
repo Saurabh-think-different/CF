@@ -32,3 +32,8 @@
 	text-align: center;
 	font-size: xx-large;
   }
+
+@media and screen(max-width:700x){
+	.logo {
+		transform:translate(50%);
+	}}
