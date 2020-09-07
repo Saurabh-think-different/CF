@@ -80,3 +80,38 @@ hr {
     width: 200px;
     height: 200px;
 }
+.logo {
+    width: 200px;
+    height: 200px;
+}
+
+.name {
+    text-align: center;
+}
+
+/*particles*/
+
+/* ---- reset ---- */
+ body{ margin:0; font:normal 75% Arial, Helvetica, sans-serif; }
+
+
+/* ---- particles.js container ---- */ 
+#particle {
+	background-color: #1d2d50;
+	position: absolute;
+	right:0;
+	left:0;
+	height: 75%; 
+  }
+  #overlay {
+	position: absolute;
+	color: white;
+	margin-top: 17.5%;
+	margin-left: 25%;
+ 	width: 50%;
+	border: 3px solid white;
+	padding: 10px;
+	text-align: center;
+	font-size: xx-large;
+	font-weight: bold;
+  }
