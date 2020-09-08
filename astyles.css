@@ -1,57 +1,37 @@
-
-main {
-    margin: 40px;
+html body {
+	height: 100%;
 }
-
-h1 {
+.name {
     text-align: center;
-    font-size: xx-large;
-    font-weight: bolder;
-    animation: article-load 1000ms ease-in 1400ms;
-    animation-fill-mode: forwards;
-    transform: translateY(-20px);
-    opacity: 0;
 }
 
-h3 {
-    animation: article-load 1400ms ease-in 2000ms;
-    animation-fill-mode: forwards;
-    transform: translateY(-20px);
-    opacity: 0;
-}
+/*particles*/
 
-header {
-    background-color: #f2f2f2;
-    animation: load-bg 7s 1;        
-}
-.page-header {
-    background-color: #f2f2f2;
-}
-footer {
-    background-color: #f2f2f2;
-    animation: load-bg 7s 1;
-}
-.page-footer {
-    background-color: #f2f2f2;
-}
+/* ---- reset ---- */
+ body{ margin:0; font:normal 75% Arial, Helvetica, sans-serif; }
 
-@keyframes load-bg {
-    from {
-        background-color: white;
 
-    }
-    to {
-        background-color: #f2f2f2;
-    }
- }
+/* ---- particles.js container ---- */ 
+#particle {
+	background-color: #1d2d50;
+	position: absolute;
+	right:0;
+	left:0;
+	height: 100%; 
+  }
+  #overlay {
+	position: absolute;
+	color: white;
+	margin-top: 20%;
+	margin-left: 25%;
+	 width: 50%;
+	border: 3px solid white;
+	box-shadow: 5px 5px 30px white;
+	padding: 10px;
+	text-align: center;
+	font-size: xx-large;
+  }
 
-@keyframes article-load {
-    0% {
-        transform: translateY(-20px);
-        opacity: 0;
-    }
-    100% {
-        transform: translateY(0px);
-        opacity: 1;
-    }
-}
+  #overlay:hover {
+	  box-shadow: 5px 10px 70px white;
+  }
